@@ -1,0 +1,36 @@
+footer {
+  width: 100vw;
+  height: 150px;
+  background-color: #808080;
+  color: black;
+  padding: 32px 8px;
+}
+
+main {
+  padding: 32px 8px;
+}
+p {
+  font-weight: 900;
+}
+
+hero {
+  width: 100vw;
+  height: 400px;
+  background-color: sandybrown;
+  color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+header {
+  width: 100vw;
+  height: 400px;
+  background-color: bisque;
+  color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
