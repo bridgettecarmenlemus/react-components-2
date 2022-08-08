@@ -12,8 +12,8 @@ const student = {
 export default function Main({name}) {
   return (
     <main>
-      <h1> Hello {name}</h1>
-        <StudentCard student = {student} />
+      <h1> Hello {name || 'Guest'}</h1>
+       {name && <StudentCard student = {student} />}
     </main>
   );
 }
