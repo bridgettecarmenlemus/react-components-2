@@ -9,3 +9,16 @@ main {
   background-color: salmon;
   flex: auto;
 }
+
+footer {
+  padding: 5em;
+  background-color: brown;
+  flex: auto
+}
+
+.menubar {
+  padding: 10em;
+  background-color: burlywood;
+  flex: auto;
+
+}
