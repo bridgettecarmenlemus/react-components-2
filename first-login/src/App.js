@@ -4,14 +4,14 @@ import SecretStuff from './components/Secretstuff';
 import './App.css';
 
 function App() {
-  const [isLoggenIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <>
     <header>
       <h1>My First Login</h1>
     </header>
-    {isLoggenIn
+    {isLoggedIn
     ? <SecretStuff />
     : <Login setIsLoggedIn={setIsLoggedIn}/>
     }
